@@ -1,9 +1,12 @@
 import type { NextPage } from "next";
+import AboutMeHeader from "../components/AboutMeHeader";
+import SocialIcons from "../components/SocialIcons";
 
 const Home: NextPage = () => {
   return (
     <div>
-      <h1>Hello world!</h1>
+      <AboutMeHeader />
+      <SocialIcons />
     </div>
   );
 };
